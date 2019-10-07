@@ -15,9 +15,6 @@ pipeline{
 			}
 		stage('Deploy to Prod'){
 			steps{
-				input('Do you want to deploy to prod')
-			}
-			steps{
 				echo 'Deploying...'
 			}		
 	}
